@@ -49,8 +49,6 @@ public class Account {
 			System.out.println("withdrawl "+ val + " is successfull\n your balance" );
 			this.getBalance();
 			
-		
-			
 		}
 	}
 	
