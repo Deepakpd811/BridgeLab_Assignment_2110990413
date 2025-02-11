@@ -9,11 +9,11 @@ package Level2;
 
 class Course {
     String courseName;
-    double duration;
+    int duration;
     double fee;
     static String instituteName = "Chitkara";
 
-    Course(String courseName, double duration, double fee) {
+    Course(String courseName, int duration, double fee) {
         this.courseName = courseName;
         this.duration = duration;
         this.fee = fee;
@@ -39,7 +39,9 @@ public class OnlineFee {
 
         c1.displayCourseDetails();
         c2.displayCourseDetails();
+
         Course.updateInstituteName("cu");
+        
         c1.displayCourseDetails();
         c2.displayCourseDetails();
     }
