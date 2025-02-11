@@ -32,6 +32,7 @@ public class Book {
 class EBook extends Book {
 
     EBook(String ISBN, String title, String author) {
+        
         super(ISBN, title, author);
     }
 

@@ -40,6 +40,7 @@ class Manager extends Employee {
     public void displayManagerDetails() {
         System.out.println("Manager Employee ID: " + employeeID); 
         System.out.println("Department: " + department);  
+        
        
         System.out.println("Salary: " + getSalary()); // salary is private cant access in subclass 
     }

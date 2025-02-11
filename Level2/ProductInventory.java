@@ -35,8 +35,9 @@ public class ProductInventory {
     public static void main(String[] args) {
             Products p1 = new Products("laptop",70000);
             Products p2 = new Products("tv",40000);
-            
+
             p1.displayProductDetails();
+            
 
             Products.displayTotalProducts();
 

@@ -25,7 +25,6 @@ class Vehicle {
 
     static boolean updateRegistrationFee(double newfee) {
         if (newfee > 0) {
-
             registrationFee = newfee;
         } else {
             System.out.println("fee must be valid");
